@@ -83,6 +83,19 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*Färg, text och utseende på knappen */
+button {
+  background-color: #ec4899;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+/* Ändra färg när musen hålls över knappen */
+button:hover {
+  background-color: #db2777;
+}
 
 /* ==========================================================================
    Helper classes
